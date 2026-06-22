@@ -20,10 +20,13 @@ This tool scans any selected drive or directory, displays the top 10 largest fol
 
 ## Installation & Setup
 
+Note on Windows Defender: Since this is an independent open-source project and not digitally signed with a costly commercial certificate, Windows SmartScreen might flag the installer during the first downloads. Click 'More Info' and then 'Run Anyway' to proceed with the installation. You can review the complete source code here on GitHub to verify its safety.
+
 ### Option 1: Using the Installer (Recommended for Users)
 1. Run `DiskAnalyzer_Setup.exe`.
 2. Follow the installation wizard. This will securely copy the application to your `Program Files` and automatically register the context menus.
 3. To use, simply right-click any drive or folder in Windows and select **"Analyze Disk Space"**.
+	(You can also run disk_analyzer.exe from your C:\Program Files (x86)\Disk Space Analyzer\)
 
 ### Option 2: Running from Source (For Developers)
 
