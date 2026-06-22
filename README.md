@@ -21,7 +21,6 @@ This tool scans any selected drive or directory, displays the top 10 largest fol
 ## Installation & Setup
 
 ### Option 1: Using the Installer (Recommended for Users)
-If you have compiled the project using the Inno Setup script:
 1. Run `DiskAnalyzer_Setup.exe`.
 2. Follow the installation wizard. This will securely copy the application to your `Program Files` and automatically register the context menus.
 3. To use, simply right-click any drive or folder in Windows and select **"Analyze Disk Space"**.
