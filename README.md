@@ -1,5 +1,7 @@
 # Disk Space Analyzer
 
+![Disk Space Analyzer](assets/screenshot.png)
+
 A fast, interactive, and modern desktop application built with Python using **CustomTkinter** and **Matplotlib** to help you visualize and manage your storage space. 
 
 This tool scans any selected drive or directory, displays the top 10 largest folders and files in a clean pie chart with an organized side legend, and allows you to dynamically "drill down" into subdirectories or locate items directly in Windows Explorer.
