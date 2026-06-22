@@ -12,7 +12,7 @@ PrivilegesRequired=admin
 
 [Files]
 ; Fetch file from dist folder
-Source: "C:\Users\steph\PycharmProjects\StorageAnalyzer\dist\disk_analyzer.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\disk_analyzer.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\Disk Space Analyzer"; Filename: "{app}\disk_analyzer.exe"
